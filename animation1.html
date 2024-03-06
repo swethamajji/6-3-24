@@ -1,0 +1,77 @@
+<html>
+    <head></head>
+        <style>
+            .g{
+             display:flex;
+             justify-content: center;
+             font-size: 100px;
+             background-color: aquamarine;
+        }
+        .a:nth-child(1){
+            animation-name:letter;
+            animation-duration:1s;
+            animation-direction: reverse;
+        }
+        .b:nth-child(2){
+            animation-name:letter;
+            animation-duration:1s;
+            animation-delay:1s;
+            animation-direction: reverse;
+        }
+        .c:nth-child(3){
+            animation-name:letter;
+            animation-duration:1s;
+            animation-delay:2s;
+            animation-direction: reverse;
+        
+        }
+        .d:nth-child(4){
+            animation-name:letter;
+            animation-duration:1s;
+            animation-delay:3s;
+            animation-direction: reverse;
+        
+        }
+        .e:nth-child(5){
+            animation-name:letter;
+            animation-duration:1s;
+            animation-delay:4s;
+            animation-direction: reverse;
+        
+        }
+        .f:nth-child(6){
+            animation-name:letter;
+            animation-duration:1s;
+            animation-delay:5s;
+            animation-direction: reverse;
+        
+        }
+        @keyframes letter {
+            10%{
+                margin-top:20px;
+                opacity:0.3;
+                animation-timing-function:ease;
+            }
+            50%{
+                margin-top:40px;
+                animation-timing-function:ease;
+            }
+            100%{
+                margin-top:100px;
+                animation-timing-function: ease; 
+            }  
+        }
+            
+        </style>
+    </head>
+    <body>
+       <div class="g">
+           <div class="a">G</div>
+           <div class="b"><sup>O</sup></div>
+            <div class="c">O</div>
+            <div class="d"><sup>G</sup></div>
+            <div class="e">L</div>
+            <div class="f"><sup>E</sup></div>
+        </div>
+    </body>
+</html>
